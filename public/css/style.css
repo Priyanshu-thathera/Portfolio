@@ -663,6 +663,12 @@ span {
     .about .content .cols .box {
         height: 300px;
     }
+    .highlights{
+        width: 90%;
+    }
+    .home{
+        min-height: 100vh;
+    }
     .highlights h3 {
         font-size: 18px;
         }
