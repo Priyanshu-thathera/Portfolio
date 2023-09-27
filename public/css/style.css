@@ -663,14 +663,25 @@ span {
     .about .content .cols .box {
         height: 300px;
     }
-}
-
-@media screen and (max-width:320px) {
-.highlights h3 {
-    font-size: 4vw;
+    .highlights h3 {
+        font-size: 18px;
+        }
+    .highlights .join{
+        font-size: 20px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-weight: 600;
     }
-
-.highlights h1 {
-    font-size: 12vw;
-}
+    .highlights h1 {
+        font-size: 40px;
+    }
+    .typing-container #feature-text {
+        font-size: 20px;
+    }
+    .typing-container .input-cursor {
+        height: 20px;
+    }
+    .typing-container .sentence {
+        font-size: 20px;
+    }
 }
